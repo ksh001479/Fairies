@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fairies</string>
+    <string name="dramaName">DRAMA</string>
+    <string name="movieName">MOVIE</string>
+    <string name="educationName">EDU PROG</string>
+    <string name="entertainName">ENT PROG</string>
+    <string name="searchName">SEARCH</string>
+</resources>
