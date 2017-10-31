@@ -5,13 +5,16 @@ import android.content.pm.PackageManager;
 import android.media.MediaPlayer;
 import android.media.MediaRecorder;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.MediaController;
 import android.widget.Toast;
+import android.widget.VideoView;
 
 /**
  * Created by 김요셉 on 2017-10-29.
@@ -29,6 +32,22 @@ public class dramaPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.drama_page);
+
+        final VideoView videoView = (VideoView)findViewById(R.id.videoView);
+        videoView.setVideoPath("http://limong.iptime.org/~m20507/video/drama1.mp4");
+
+        final MediaController mediaController = new MediaController(this);
+        videoView.setMediaController(mediaController);
+        mediaController.setPadding(0, 0, 0, 0);
+
+        videoView.start();
+        videoView.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                mediaController.show(0);
+                videoView.pause();
+            }
+        }, 100);
 
         Button recordBtn = (Button) findViewById(R.id.recordBtn);
         Button recordStopBtn = (Button) findViewById(R.id.recordStopBtn);

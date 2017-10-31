@@ -42,13 +42,13 @@ public class dramaList extends AppCompatActivity implements AdapterView.OnItemCl
                 intent = new Intent(dramaList.this, dramaPage.class);
                 break;
             case 1 :
-                intent = new Intent(dramaList.this, dramaPage.class);
+                intent = new Intent(dramaList.this, dramaPage2.class);
                 break;
             case 2 :
-                intent = new Intent(dramaList.this, dramaPage.class);
+                intent = new Intent(dramaList.this, dramaPage3.class);
                 break;
             case 3 :
-                intent = new Intent(dramaList.this, dramaPage.class);
+                intent = new Intent(dramaList.this, dramaPage4.class);
                 break;
         }
 

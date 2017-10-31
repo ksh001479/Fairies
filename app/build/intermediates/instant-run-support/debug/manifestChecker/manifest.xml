@@ -9,6 +9,7 @@
         android:targetSdkVersion="26" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -31,13 +32,22 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.jws.fairies.dramaPage" />
+        <activity android:name="com.example.jws.fairies.dramaPage2" />
+        <activity android:name="com.example.jws.fairies.dramaPage3" />
+        <activity android:name="com.example.jws.fairies.dramaPage4" />
         <activity android:name="com.example.jws.fairies.moviePage" />
+        <activity android:name="com.example.jws.fairies.moviePage2" />
+        <activity android:name="com.example.jws.fairies.moviePage3" />
+        <activity android:name="com.example.jws.fairies.moviePage4" />
         <activity android:name="com.example.jws.fairies.searchPage" />
         <activity android:name="com.example.jws.fairies.educationPage" />
-        <activity android:name="com.example.jws.fairies.listView" />
+        <activity android:name="com.example.jws.fairies.entertainmentPage" />
+        <activity android:name="com.example.jws.fairies.entertainmentPage2" />
+        <activity android:name="com.example.jws.fairies.entertainmentPage3" />
+        <activity android:name="com.example.jws.fairies.entertainmentPage4" />
         <activity android:name="com.example.jws.fairies.movieList" />
         <activity android:name="com.example.jws.fairies.dramaList" />
-        <activity android:name="com.example.jws.fairies.educationList" />
+        <activity android:name="com.example.jws.fairies.entertainmentList" />
         <activity
             android:name="com.gun0912.tedpermission.TedPermissionActivity"
             android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"

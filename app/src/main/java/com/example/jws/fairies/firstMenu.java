@@ -74,7 +74,17 @@ public class firstMenu extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(firstMenu.this, educationList.class);
+                Intent intent = new Intent(firstMenu.this, educationPage.class);
+                startActivity(intent);
+            }
+        });
+
+        Button entertain_button = (Button)findViewById(R.id.entertain_button);
+        entertain_button.setOnClickListener(new Button.OnClickListener(){
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(firstMenu.this, entertainmentList.class);
                 startActivity(intent);
             }
         });

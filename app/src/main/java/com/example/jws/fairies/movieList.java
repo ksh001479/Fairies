@@ -42,13 +42,13 @@ public class movieList extends AppCompatActivity implements AdapterView.OnItemCl
                 intent = new Intent(movieList.this, moviePage.class);
                 break;
             case 1 :
-                intent = new Intent(movieList.this, moviePage.class);
+                intent = new Intent(movieList.this, moviePage2.class);
                 break;
             case 2 :
-                intent = new Intent(movieList.this, moviePage.class);
+                intent = new Intent(movieList.this, moviePage3.class);
                 break;
             case 3 :
-                intent = new Intent(movieList.this, moviePage.class);
+                intent = new Intent(movieList.this, moviePage4.class);
                 break;
         }
 
