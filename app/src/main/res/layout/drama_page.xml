@@ -33,14 +33,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text=" Start Recording" />
+                android:text="녹음 시작"
+                android:textSize="28sp"/>
 
             <Button
                 android:id="@+id/recordStopBtn"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Finish Recording" />
+                android:text="녹음 종료"
+                android:textSize="28sp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -54,14 +56,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Play Recording" />
+                android:text="녹음 듣기"
+                android:textSize="28sp"/>
 
             <Button
                 android:id="@+id/playStopBtn"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Stop Play" />
+                android:text="녹음 멈춤"
+                android:textSize="28sp"/>
         </LinearLayout>
 
     </LinearLayout>

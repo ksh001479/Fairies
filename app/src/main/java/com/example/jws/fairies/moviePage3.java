@@ -33,7 +33,7 @@ public class moviePage3 extends AppCompatActivity {
         setContentView(R.layout.drama_page);
 
         final VideoView videoView = (VideoView)findViewById(R.id.videoView);
-        videoView.setVideoPath("http://limong.iptime.org/~m20505/gong2.wmv");
+        videoView.setVideoPath("http://limong.iptime.org/~m20507/video/movie3.mp4");
 
         final MediaController mediaController = new MediaController(this);
         videoView.setMediaController(mediaController);

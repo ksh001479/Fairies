@@ -34,7 +34,7 @@ public class entertainmentPage extends AppCompatActivity {
         setContentView(R.layout.drama_page);
 
         final VideoView videoView = (VideoView)findViewById(R.id.videoView);
-        videoView.setVideoPath("http://limong.iptime.org/~m20507/video/entertainment.wmv");
+        videoView.setVideoPath("http://limong.iptime.org/~m20507/video/entertain1.mp4");
 
         final MediaController mediaController = new MediaController(this);
         videoView.setMediaController(mediaController);

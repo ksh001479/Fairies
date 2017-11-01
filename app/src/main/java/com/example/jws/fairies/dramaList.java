@@ -7,14 +7,14 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class dramaList extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     public String[] arrlist = {
-            "1",
-            "2",
-            "3",
-            "4"
+            "도깨비 하이라이트1",
+            "도깨비 하이라이트2",
+            "그녀는 예뻤다 하이라이트1"
     };
 
     @Override
@@ -47,11 +47,11 @@ public class dramaList extends AppCompatActivity implements AdapterView.OnItemCl
             case 2 :
                 intent = new Intent(dramaList.this, dramaPage3.class);
                 break;
-            case 3 :
-                intent = new Intent(dramaList.this, dramaPage4.class);
-                break;
-        }
+            default:
+                Toast.makeText(this, "영상이 비었습니다.", Toast.LENGTH_LONG).show();
 
-        startActivity(intent);
+        }
+        if(intent != null)
+            startActivity(intent);
     }
 }

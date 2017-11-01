@@ -7,14 +7,14 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class movieList extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     public String[] arrlist = {
-            "1",
-            "2",
-            "3",
-            "4"
+            "럭키 유해진 명대사",
+            "당신 거기 있어줄래요? 명대사",
+            "아저씨 명대사"
     };
 
     @Override
@@ -47,11 +47,10 @@ public class movieList extends AppCompatActivity implements AdapterView.OnItemCl
             case 2 :
                 intent = new Intent(movieList.this, moviePage3.class);
                 break;
-            case 3 :
-                intent = new Intent(movieList.this, moviePage4.class);
-                break;
+            default:
+                Toast.makeText(this, "영상이 비었습니다.", Toast.LENGTH_LONG).show();
         }
-
-        startActivity(intent);
+        if(intent != null)
+            startActivity(intent);
     }
 }
