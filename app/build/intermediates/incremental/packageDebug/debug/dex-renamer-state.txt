@@ -1,19 +1,4 @@
-#Wed Nov 01 23:06:52 KST 2017
-renamed.5=classes6.dex
-renamed.4=classes5.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
-renamed.1=classes2.dex
+#Thu Nov 02 21:46:17 KST 2017
+base.0=C\:\\Users\\ksh00\\AndroidStudioProjects\\Fairies\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\113
 renamed.0=classes.dex
-base.5=C\:\\Users\\ksh00\\AndroidStudioProjects\\Fairies\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\90
-base.4=C\:\\Users\\ksh00\\AndroidStudioProjects\\Fairies\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\87
-base.3=C\:\\Users\\ksh00\\AndroidStudioProjects\\Fairies\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\88
-base.2=C\:\\Users\\ksh00\\AndroidStudioProjects\\Fairies\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\92
-base.1=C\:\\Users\\ksh00\\AndroidStudioProjects\\Fairies\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\89
-base.0=C\:\\Users\\ksh00\\AndroidStudioProjects\\Fairies\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\91
-file.5=C\:\\Users\\ksh00\\AndroidStudioProjects\\Fairies\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\90\\classes.dex
-file.4=C\:\\Users\\ksh00\\AndroidStudioProjects\\Fairies\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\87\\classes.dex
-file.3=C\:\\Users\\ksh00\\AndroidStudioProjects\\Fairies\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\88\\classes.dex
-file.2=C\:\\Users\\ksh00\\AndroidStudioProjects\\Fairies\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\92\\classes.dex
-file.1=C\:\\Users\\ksh00\\AndroidStudioProjects\\Fairies\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\89\\classes.dex
-file.0=C\:\\Users\\ksh00\\AndroidStudioProjects\\Fairies\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\91\\classes.dex
+file.0=C\:\\Users\\ksh00\\AndroidStudioProjects\\Fairies\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\113\\classes.dex
