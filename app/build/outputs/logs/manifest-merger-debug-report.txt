@@ -86,7 +86,7 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ksh00\.gradle\caches
 	android:supportsRtl
 		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:15:9-30
 	android:roundIcon
 		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:16:9-54
 	android:icon

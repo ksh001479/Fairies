@@ -19,7 +19,7 @@
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@mipmap/icon"
-        android:label="@string/app_name"
+        android:label="발음요정들"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
