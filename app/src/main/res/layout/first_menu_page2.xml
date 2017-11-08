@@ -15,49 +15,49 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/drama_button"
+            android:id="@+id/entertain_button"
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:layout_margin="5dp"
-            android:background=" #FF80AB"
+            android:background="#F8BBD0"
             android:shadowColor="#050505"
             android:shadowDx="0"
             android:shadowDy="0"
             android:shadowRadius="5"
-            android:text="@string/dramaName"
+            android:text="@string/entertainName"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/movie_button"
+            android:id="@+id/search_button"
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:layout_margin="5dp"
-            android:background="#80CBC4"
+            android:background="#FFAB91"
             android:shadowColor="#050505"
             android:shadowDx="0"
             android:shadowDy="0"
             android:shadowRadius="5"
-            android:text="@string/movieName"
+            android:text="@string/searchName"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/eductaion_button"
+            android:id="@+id/help_button"
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:layout_margin="5dp"
-            android:background="#B39DDB"
+            android:background="#A5D6A7"
             android:shadowColor="#050505"
             android:shadowDx="0"
             android:shadowDy="0"
             android:shadowRadius="5"
-            android:text="@string/educationName"
+            android:text="HELP"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/next_button"
+            android:id="@+id/previous_button"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:layout_margin="5dp"
@@ -66,8 +66,9 @@
             android:shadowDx="0"
             android:shadowDy="0"
             android:shadowRadius="5"
-            android:text="다음 페이지"
+            android:text="이전 페이지"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
     </LinearLayout>
+
 </LinearLayout>

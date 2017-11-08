@@ -6,13 +6,13 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.0.0"
-    timestamp="1510144547660"
+    timestamp="1510150129994"
     token="9064506298999192770"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="159" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -23,9 +23,6 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="C:\Users\ksh00\AndroidStudioProjects\Fairies\app\build\outputs\apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
     <artifact
         location="C:\Users\ksh00\AndroidStudioProjects\Fairies\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
@@ -59,14 +56,14 @@
     <artifact
         location="C:\Users\ksh00\AndroidStudioProjects\Fairies\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
+    <artifact
+        location="C:\Users\ksh00\AndroidStudioProjects\Fairies\app\build\outputs\apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1510144547660"
+        timestamp="1510150129994"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\ksh00\AndroidStudioProjects\Fairies\app\build\outputs\apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\ksh00\AndroidStudioProjects\Fairies\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
@@ -100,6 +97,9 @@
         <artifact
             location="C:\Users\ksh00\AndroidStudioProjects\Fairies\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\ksh00\AndroidStudioProjects\Fairies\app\build\outputs\apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

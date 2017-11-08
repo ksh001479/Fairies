@@ -31,6 +31,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.jws.fairies.firstMenu2" />
         <activity android:name="com.example.jws.fairies.dramaPage" />
         <activity android:name="com.example.jws.fairies.dramaPage2" />
         <activity android:name="com.example.jws.fairies.dramaPage3" />

@@ -2,8 +2,8 @@ package com.example.jws.fairies;
 
 import android.Manifest;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -13,12 +13,12 @@ import com.gun0912.tedpermission.TedPermission;
 
 import java.util.ArrayList;
 
-public class firstMenu extends AppCompatActivity {
+public class firstMenu2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.first_menu_page);
+        setContentView(R.layout.first_menu_page2);
 
         PermissionListener permissionlistener = new PermissionListener() {
             @Override
@@ -38,42 +38,41 @@ public class firstMenu extends AppCompatActivity {
                 .setPermissions(Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.RECORD_AUDIO)
                 .check();
 
-        Button drama_button = (Button) findViewById(R.id.drama_button);
-        drama_button.setOnClickListener(new Button.OnClickListener() {
-
+        Button search_button = (Button) findViewById(R.id.search_button);
+        search_button.setOnClickListener(new Button.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(firstMenu.this, dramaList.class);
+                Intent intent = new Intent(firstMenu2.this, searchPage.class);
                 startActivity(intent);
             }
         });
 
-        Button moive_button = (Button) findViewById(R.id.movie_button);
-        moive_button.setOnClickListener(new Button.OnClickListener() {
+        Button entertain_button = (Button) findViewById(R.id.entertain_button);
+        entertain_button.setOnClickListener(new Button.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(firstMenu.this, movieList.class);
+                Intent intent = new Intent(firstMenu2.this, entertainmentList.class);
                 startActivity(intent);
             }
         });
 
-        Button education_button = (Button) findViewById(R.id.eductaion_button);
-        education_button.setOnClickListener(new Button.OnClickListener() {
+        Button help_button = (Button) findViewById(R.id.help_button);
+        help_button.setOnClickListener(new Button.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(firstMenu.this, educationPage.class);
+                Intent intent = new Intent(firstMenu2.this, helpPage.class);
                 startActivity(intent);
             }
         });
 
-        Button next_button = (Button)findViewById(R.id.next_button);
-        next_button.setOnClickListener(new View.OnClickListener() {
+        Button previous_button = (Button)findViewById(R.id.previous_button);
+        previous_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(firstMenu.this, firstMenu2.class);
+                Intent intent = new Intent(firstMenu2.this, firstMenu.class);
                 startActivity(intent);
             }
         });
