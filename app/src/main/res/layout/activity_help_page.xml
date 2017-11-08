@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.jws.fairies.helpPage"
-    android:textColor="#000000">
+    tools:context="com.example.jws.fairies.helpPage">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,6 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="사용법"
+            android:textColor="#000000"
             android:textSize="40sp" />
     </LinearLayout>
 
@@ -25,6 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="1. 원하는 장르를 클릭합니다.\n"
+        android:textColor="#000000"
         android:textSize="20sp" />
 
     <TextView
@@ -32,6 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2. 영상을 시청합니다.\n"
+        android:textColor="#000000"
         android:textSize="20sp" />
 
     <TextView
@@ -39,6 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="3. 영상 시청 후 녹음시작을 눌러 영상의 대사를 따라합니다.\n"
+        android:textColor="#000000"
         android:textSize="20sp" />
 
     <TextView
@@ -46,6 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="4. 녹음을 다했다면 녹음 종료를 누른 후\n"
+        android:textColor="#000000"
         android:textSize="20sp" />
 
     <TextView
@@ -53,6 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="5. 녹음을 다했다면 녹음 종료를 누른 후\n"
+        android:textColor="#000000"
         android:textSize="20sp" />
 
     <TextView
@@ -60,6 +65,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="6. 녹음 듣기를 눌러 자신이 말한 목소리를 듣습니다.\n"
+        android:textColor="#000000"
         android:textSize="20sp" />
 
     <TextView
@@ -67,6 +73,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="7. 녹음을 다 들었다면 녹음 멈춤버튼을 누르세요\n"
+        android:textColor="#000000"
         android:textSize="20sp" />
 
 </LinearLayout>
