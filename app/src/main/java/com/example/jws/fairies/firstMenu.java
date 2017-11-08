@@ -28,7 +28,7 @@ public class firstMenu extends AppCompatActivity {
 
             @Override
             public void onPermissionDenied(ArrayList<String> deniedPermissions) {
-               // Toast.makeText(getApplicationContext(), "" + deniedPermissions.toString(), Toast.LENGTH_SHORT).show();
+                // Toast.makeText(getApplicationContext(), "" + deniedPermissions.toString(), Toast.LENGTH_SHORT).show();
             }
         };
 
@@ -38,8 +38,8 @@ public class firstMenu extends AppCompatActivity {
                 .setPermissions(Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.RECORD_AUDIO)
                 .check();
 
-        Button drama_button = (Button)findViewById(R.id.drama_button);
-        drama_button.setOnClickListener(new Button.OnClickListener(){
+        Button drama_button = (Button) findViewById(R.id.drama_button);
+        drama_button.setOnClickListener(new Button.OnClickListener() {
 
 
             @Override
@@ -49,8 +49,8 @@ public class firstMenu extends AppCompatActivity {
             }
         });
 
-        Button moive_button = (Button)findViewById(R.id.movie_button);
-        moive_button.setOnClickListener(new Button.OnClickListener(){
+        Button moive_button = (Button) findViewById(R.id.movie_button);
+        moive_button.setOnClickListener(new Button.OnClickListener() {
 
             @Override
             public void onClick(View view) {
@@ -59,8 +59,8 @@ public class firstMenu extends AppCompatActivity {
             }
         });
 
-        Button search_button = (Button)findViewById(R.id.search_button);
-        search_button.setOnClickListener(new Button.OnClickListener(){
+        Button search_button = (Button) findViewById(R.id.search_button);
+        search_button.setOnClickListener(new Button.OnClickListener() {
 
             @Override
             public void onClick(View view) {
@@ -69,8 +69,8 @@ public class firstMenu extends AppCompatActivity {
             }
         });
 
-        Button education_button = (Button)findViewById(R.id.eductaion_button);
-        education_button.setOnClickListener(new Button.OnClickListener(){
+        Button education_button = (Button) findViewById(R.id.eductaion_button);
+        education_button.setOnClickListener(new Button.OnClickListener() {
 
             @Override
             public void onClick(View view) {
@@ -79,12 +79,22 @@ public class firstMenu extends AppCompatActivity {
             }
         });
 
-        Button entertain_button = (Button)findViewById(R.id.entertain_button);
-        entertain_button.setOnClickListener(new Button.OnClickListener(){
+        Button entertain_button = (Button) findViewById(R.id.entertain_button);
+        entertain_button.setOnClickListener(new Button.OnClickListener() {
 
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(firstMenu.this, entertainmentList.class);
+                startActivity(intent);
+            }
+        });
+
+        Button help_button = (Button) findViewById(R.id.help_button);
+        help_button.setOnClickListener(new Button.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(firstMenu.this, helpPage.class);
                 startActivity(intent);
             }
         });

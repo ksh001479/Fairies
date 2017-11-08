@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:2:1-45:12
+ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:2:1-46:12
 MERGED from [gun0912.ted:tedpermission:2.0.3] C:\Users\ksh00\.gradle\caches\transforms-1\files-1.1\tedpermission-2.0.3.aar\be6f65df3c8b7b4002092d23a20f4583\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ksh00\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\a7a160f675a66d590091f4b9e64870bc\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ksh00\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bf156944a8e009e164305286df71fad9\AndroidManifest.xml:2:1-11:12
@@ -16,20 +16,20 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ksh00\.grad
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ksh00\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c57e3a8fc9fc9f93afa08b4f8fa22dc2\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ksh00\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\9426d35222c485ff86d934e0bbd9d992\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ksh00\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c275d652b810d2d97334689510314614\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:2:1-45:12
+		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:2:1-46:12
 		INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:2:1-45:12
+		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:2:1-46:12
 		INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:2:11-69
@@ -38,7 +38,7 @@ ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidMani
 	android:name
 		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:6:5-68
 	android:name
 		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:6:22-65
 uses-permission#android.permission.RECORD_AUDIO
@@ -58,7 +58,7 @@ ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidMani
 	android:name
 		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:10:22-73
 application
-ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:12:5-43:19
+ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:12:5-44:19
 MERGED from [gun0912.ted:tedpermission:2.0.3] C:\Users\ksh00\.gradle\caches\transforms-1\files-1.1\tedpermission-2.0.3.aar\be6f65df3c8b7b4002092d23a20f4583\AndroidManifest.xml:9:5-15:19
 MERGED from [gun0912.ted:tedpermission:2.0.3] C:\Users\ksh00\.gradle\caches\transforms-1\files-1.1\tedpermission-2.0.3.aar\be6f65df3c8b7b4002092d23a20f4583\AndroidManifest.xml:9:5-15:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ksh00\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\a7a160f675a66d590091f4b9e64870bc\AndroidManifest.xml:25:5-29:19
@@ -150,19 +150,19 @@ ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidMani
 	android:name
 		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:35:19-48
 activity#com.example.jws.fairies.entertainmentPage
-ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:36:9-54
+ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:36:9-55
 	android:name
 		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:36:19-52
 activity#com.example.jws.fairies.entertainmentPage2
-ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:37:9-55
+ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:37:9-56
 	android:name
 		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:37:19-53
 activity#com.example.jws.fairies.entertainmentPage3
-ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:38:9-55
+ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:38:9-56
 	android:name
 		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:38:19-53
 activity#com.example.jws.fairies.entertainmentPage4
-ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:39:9-55
+ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:39:9-56
 	android:name
 		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:39:19-53
 activity#com.example.jws.fairies.movieList
@@ -174,9 +174,13 @@ ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidMani
 	android:name
 		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:41:19-44
 activity#com.example.jws.fairies.entertainmentList
-ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:42:9-54
+ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:42:9-55
 	android:name
 		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:42:19-52
+activity#com.example.jws.fairies.helpPage
+ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:43:9-55
+	android:name
+		ADDED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml:43:19-43
 uses-sdk
 INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\ksh00\AndroidStudioProjects\Fairies\app\src\main\AndroidManifest.xml
